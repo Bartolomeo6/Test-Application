@@ -19,9 +19,15 @@ namespace test_Menu
     /// </summary>
     public partial class TestWindow : Window
     {
+        List<Question> ListOfQuestions = new List<Question>();
         public TestWindow()
         {
             InitializeComponent();
+        }
+
+        private void prepareSomeQuestions()
+        {
+
         }
     }
 }
