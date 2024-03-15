@@ -1,19 +1,10 @@
 Czy Android został zbudowany na podstawie systemu operacyjnego Windows?
-
 nie
-
 Czy WPF to środowisko do aplikacji desktopowych?
-
 tak
-
 Czy Jetpack Compose wykorzystuje język XML?
-
 nie
-
 Czy Angular jest frameworkiem do obsługi baz danych?
-
 nie
-
 Czy qt to framework w Javie?
-
 nie

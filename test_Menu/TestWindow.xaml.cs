@@ -21,6 +21,8 @@ namespace test_Menu
     public partial class TestWindow : Window
     {
         List<Question> ListOfQuestions { get; set; }
+        public int Counter { get; set; }
+        public int Points { get; set; }
         public TestWindow()
         {
             InitializeComponent();
@@ -51,5 +53,44 @@ namespace test_Menu
             }
             streamReader.Close(); // PAMIĘTAĆ O ZAMYKANIU!
         }
+
+        
+
+        private void AnswerButtonYes(object sender, RoutedEventArgs e)
+        {
+            ButtonOperation(true);
+        }
+
+        private void AnswerButtonNo(object sender, RoutedEventArgs e)
+        {
+            ButtonOperation(false);
+        }
+
+        private void ButtonOperation (bool ans)
+        {
+            checkTheAnswer(ans, Counter);
+            Counter++;
+
+            if (Counter == ListOfQuestions.Count())
+            {
+                MessageBox.Show("Zakończyłeś test, Twoje punkty: " + Points);
+                Close();
+            }
+            else
+            {
+                showTheQuestion(Counter);
+            }
+
+        }
+
+        private void checkTheAnswer(bool ans, int idQuest)
+        {
+            if(ans == ListOfQuestions[Counter].Answer)
+            {
+                Points++;
+            }
+        }
+
+
     }
 }
