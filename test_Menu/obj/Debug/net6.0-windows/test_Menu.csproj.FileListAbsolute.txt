@@ -23,3 +23,4 @@ C:\Users\programista\Desktop\test_Menu\test_Menu\obj\Debug\net6.0-windows\refint
 C:\Users\programista\Desktop\test_Menu\test_Menu\obj\Debug\net6.0-windows\test_Menu.pdb
 C:\Users\programista\Desktop\test_Menu\test_Menu\obj\Debug\net6.0-windows\test_Menu.genruntimeconfig.cache
 C:\Users\programista\Desktop\test_Menu\test_Menu\obj\Debug\net6.0-windows\ref\test_Menu.dll
+C:\Users\programista\Desktop\test_Menu\test_Menu\bin\Debug\net6.0-windows\questionsForTest.txt
