@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="Add Question Field" Height="450" Width="800">
     <StackPanel>
-        <TextBox></TextBox>
-        <Button>Add your question</Button>
+        <TextBox x:Name="newQuestField" FontSize="50"></TextBox>
+        <Button Click="AddingQuestButton_Click" FontSize="40">Add your question</Button>
+        <Label>The Answer to this Question is: </Label>
+        <RadioButton x:Name="ansYes" FontSize="50">Yes</RadioButton>
+        <RadioButton x:Name="ansNo" FontSize="50">No</RadioButton>
     </StackPanel>
 </Window>

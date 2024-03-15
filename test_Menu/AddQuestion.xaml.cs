@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,5 +24,25 @@ namespace test_Menu
         {
             InitializeComponent();
         }
+
+        private void AddingQuestButton_Click(object sender, RoutedEventArgs e)
+        {
+            StreamWriter WritingStream = new StreamWriter("../../../questionsForTest.txt", true);
+            if (ansNo.IsChecked == true)
+            {
+                WritingStream.WriteLine(newQuestField.Text);
+                WritingStream.WriteLine("nie");
+            }
+            if(ansYes.IsChecked == true)
+            {
+                WritingStream.WriteLine(newQuestField.Text);
+                WritingStream.WriteLine("tak");
+            }
+            WritingStream.WriteLine();
+            WritingStream.Close();
+
+
+        }
+
     }
 }

@@ -20,7 +20,7 @@ namespace test_Menu
     /// </summary>
     public partial class TestWindow : Window
     {
-        List<Question> ListOfQuestions { get; set; }
+        public List<Question> ListOfQuestions { get; set; }
         public int Counter { get; set; }
         public int Points { get; set; }
         public TestWindow()

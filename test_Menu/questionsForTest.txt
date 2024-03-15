@@ -1,10 +1,11 @@
-Czy Android zostaÅ‚ zbudowany na podstawie systemu operacyjnego Windows?
+Czy Android zosta³ zbudowany na podstawie systemu operacyjnego Windows?
 nie
-Czy WPF to Å›rodowisko do aplikacji desktopowych?
+Czy WPF to œrodowisko do aplikacji desktopowych?
 tak
-Czy Jetpack Compose wykorzystuje jÄ™zyk XML?
+Czy Jetpack Compose wykorzystuje jêzyk XML?
 nie
-Czy Angular jest frameworkiem do obsÅ‚ugi baz danych?
+Czy Angular jest frameworkiem do obs³ugi baz danych?
 nie
 Czy qt to framework w Javie?
 nie
+
